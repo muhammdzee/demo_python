@@ -17,6 +17,4 @@ Including another URLconf
 from django.urls import path
 from displayText.views import hello_world
 
-urlpatterns = [
-    path('',hello_world)
-]
+urlpatterns = [path("", hello_world)]
