@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'displayText.apps.DisplayTextConfig',
-    'fileUpload.fileUpload.apps.FileUploadConfig'
+    'fileUpload.apps.FileUploadConfig'
 ]
 
 MIDDLEWARE = [
